@@ -1,2 +1,2 @@
 # SortingFunction
-I have made a function for sorting array of objects by any given property even if it doesnot exist in the objects and as many properties as the user wants
+I have made a function for sorting array of objects by any given property even if it doesnot exist in the objects and as many properties as the user wants. By default it sorts them in descending order. If you want to be sorted by ascending order by a given property then what you should do is {"propertyName":"asc"} and if the objects are equal by this exact given property then it will be sorted in descending order by the next property (if there is one). This way you are given more control while sorting because you can sort in ascending order by 3 properties or in descending by 5 and so on.
